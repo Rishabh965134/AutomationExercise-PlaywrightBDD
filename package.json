@@ -1,0 +1,19 @@
+{
+  "name": "automationexercise-playwrightbdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js --tags @registerUserWithValidCreds"
+  },
+  "keywords": [],
+  "author": "Rishabh Jha",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "@types/node": "^24.5.2"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^12.2.0"
+  }
+}
