@@ -47,7 +47,7 @@ AutomationExercise-PlaywrightBDD/
 ## Key Files
 - `cucumber.config.js`: Main config for Cucumber, points to step definitions and feature files.
 - `playwright.config.js`: Playwright settings for browser automation.
-- `src/resources/features/Registration.feature`: Example feature for user registration.
+- `src/resources/features/`: Includes the feature file defining test scenarios based on business rules.
 - `src/resources/step_definations/`: Step implementations for features.
 - `src/resources/pageObjects/` & `pageElements/`: Page Object Model and selectors.
 - `src/setup/CucumberHooks.js`: Hooks for browser/context setup and teardown.
