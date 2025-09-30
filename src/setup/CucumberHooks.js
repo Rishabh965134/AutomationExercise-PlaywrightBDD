@@ -4,7 +4,7 @@ const { chromium } = require("@playwright/test")
 setDefaultTimeout(360000);
 
 BeforeAll(async function () {
-    global.browser = await chromium.launch({ headless: false });
+    global.browser = await chromium.launch({ headless: true });
 })
 
 Before(async function () {
